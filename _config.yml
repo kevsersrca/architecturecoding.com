@@ -1,8 +1,8 @@
-title: Monophase
-tagline: A one-column minimal responsive Jekyll blog theme
+title: Architecturecoding
+tagline: Personal Blog Page
 author:
-  name: Song-Zi Vong
-  url: https://twitter.com/zivtwt
+  name: Kevser Sirca
+  url: https://twitter.com/kev_src
 
 plugins:
   - jekyll-feed
