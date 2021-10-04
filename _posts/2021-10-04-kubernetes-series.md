@@ -28,7 +28,7 @@ A cheat sheet for Kubernetes commands.
 
 `kubectl`: This is the command line configuration tool for Kubernetes.
 
-![kubernetes](/kubernetes-diagram.png "Kubernetes Diagram")
+![kubernetes](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcuCYNMCaMQHXK5HZMzso-t8H8SpZhoVG_1g&usqp=CAU "Kubernetes Diagram")
 
 ## Kubectl Alias
 
