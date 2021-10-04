@@ -4,11 +4,13 @@ title: Kubernetes Series
 author: Kevser Sirca
 categories: [kubernetes]
 tags: [kubernetes, k8s, kubectl]
+toc: true
 ---
 
 # Contents
 
-[[toc]]
+{% toc %}
+
 
 ## Definition
 
