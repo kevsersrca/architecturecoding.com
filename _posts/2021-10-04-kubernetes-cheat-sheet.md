@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kubernetes Cheat jseet For Beginner 
+title: Kubernetes Cheat sheet For Beginner 
 author: Kevser Sirca
 categories: [kubernetes]
 tags: [kubernetes, k8s, kubectl]
@@ -9,19 +9,19 @@ Kubernetes cheat sheet is for those who want to start kubernetes and don't know 
 
 ## Table of Contents
 
-<div class="table-of-contents"><ul><li><a href="#kubectl-alias">Kubectl Alias</a></li><li><a href="#cluster-info">Cluster Info</a></li><li><a href="#contexts">Contexts</a></li><li><a href="#get-commands">Get Commands</a></li><li><a href="#namespaces">Namespaces</a></li><li><a href="#labels">Labels</a></li><li><a href="#describe-command">Describe Command</a></li><li><a href="#delete-command">Delete Command</a></li><li><a href="#create-vs-apply">Create vs Apply</a></li><li><a href="#create-pod">Create Pod</a></li><li><a href="#create-deployment">Create Deployment</a></li><li><a href="#create-service">Create Service</a></li><li><a href="#export-yaml-for-new-pod">Export YAML for New Pod</a></li><li><a href="#export-yaml-for-existing-object">Export YAML for Existing Object</a></li><li><a href="#logs">Logs</a></li><li><a href="#port-forward">Port Forward</a></li><li><a href="#scaling">Scaling</a></li><li><a href="#autoscaling">Autoscaling</a></li><li><a href="#rollout">Rollout</a></li><li><a href="#pod-example">Pod Example</a></li><li><a href="#deployment-example">Deployment Example</a></li><li><a href="#dajsboard">Dajsboard</a></li></ul></div>
+<div class="table-of-contents"><ul><li><a href="#kubectl-alias">Kubectl Alias</a></li><li><a href="#cluster-info">Cluster Info</a></li><li><a href="#contexts">Contexts</a></li><li><a href="#get-commands">Get Commands</a></li><li><a href="#namespaces">Namespaces</a></li><li><a href="#labels">Labels</a></li><li><a href="#describe-command">Describe Command</a></li><li><a href="#delete-command">Delete Command</a></li><li><a href="#create-vs-apply">Create vs Apply</a></li><li><a href="#create-pod">Create Pod</a></li><li><a href="#create-deployment">Create Deployment</a></li><li><a href="#create-service">Create Service</a></li><li><a href="#export-yaml-for-new-pod">Export YAML for New Pod</a></li><li><a href="#export-yaml-for-existing-object">Export YAML for Existing Object</a></li><li><a href="#logs">Logs</a></li><li><a href="#port-forward">Port Forward</a></li><li><a href="#scaling">Scaling</a></li><li><a href="#autoscaling">Autoscaling</a></li><li><a href="#rollout">Rollout</a></li><li><a href="#pod-example">Pod Example</a></li><li><a href="#deployment-example">Deployment Example</a></li><li><a href="#dashboard">Dashboard</a></li></ul></div>
 
 ## Definition
 
-A cheat jseet for Kubernetes commands.
+A cheat sheet for Kubernetes commands.
 
 `Master`: The machine that controls Kubernetes nodes. This is where all task assignments originate.
 
 `Node`: These machines perform the requested, assigned tasks. The Kubernetes master controls them.
 
-`Pod`: A group of one or more containers deployed to a single node. All containers in a pod jsare an IP address, IPC, hostname, and other resources. Pods abstract network and storage away from the underlying container. This lets you move containers around the cluster more easily.
+`Pod`: A group of one or more containers deployed to a single node. All containers in a pod share an IP address, IPC, hostname, and other resources. Pods abstract network and storage away from the underlying container. This lets you move containers around the cluster more easily.
 
-`Replication controller`:  This controls how many identical copies of a pod jsould be running somewhere on the cluster.
+`Replication controller`:  This controls how many identical copies of a pod should be running somewhere on the cluster.
 
 `Service`: This decouples work definitions from the pods. Kubernetes service proxies automatically get service requests to the right pod—no matter where it moves to in the cluster or even if it’s been replaced.
 
@@ -109,7 +109,7 @@ $ kubectl get endpoints kuard
 
 Additional switches that can be added to the above commands:
 
-- `-o wide` - jsow more information.
+- `-o wide` - show more information.
 - `--watch` or `-w` - watch for changes.
 
 ## Namespaces
@@ -126,9 +126,9 @@ To switch namespaces, you can also install and use [kubens](https://github.com/a
 
 ## Labels
 
-- Get pods jsowing labels.
+- Get pods showing labels.
 ```
-$ kubectl get pods --jsow-labels
+$ kubectl get pods --show-labels
 ```
 
 - Get pods by label.
@@ -157,7 +157,7 @@ $ kubectl delete svc kuard [id]
 $ kubectl delete endpoints kuard [id]
 ```
 
-Force a deletion of a pod without waiting for it to gracefully jsut down
+Force a deletion of a pod without waiting for it to gracefully shut down
 ```
 $ kubectl delete pod-name --grace-period=0 --force
 ```
@@ -251,7 +251,7 @@ vkubectl autoscale deployment nginx-deployment --min=10 --max=15 --cpu-percent=8
 - Get rollout status.
 ```
 $ kubectl rollout status deployment/nginx-deployment
-Waiting for rollout to finijs: 2 out of 3 new replicas have been updated...
+Waiting for rollout to finish: 2 out of 3 new replicas have been updated...
 deployment "nginx-deployment" successfully rolled out
 ```
 
@@ -322,7 +322,7 @@ spec:
         - containerPort: 80
 ```
 
-## Dajsboard
+## Dashboard
 
 - Enable proxy
 
