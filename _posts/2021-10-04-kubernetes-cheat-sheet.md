@@ -33,27 +33,27 @@ A cheat sheet for Kubernetes commands.
 ## Kubectl Alias
 
 Linux and OSX
-```
+{% highlight js %}
 $ alias k=kubectl
-```
+{% endhighlight%}
 
 Windows
-```
+{% highlight sh %}
 $ Set-Alias -Name k -Value kubectl
-```
+{% endhighlight%}
 
 ## Cluster Info
 
 - Get clusters
-```
+{% highlight sh %}
 $ kubectl config get-clusters
-```
+{% endhighlight%}
 
 - Get cluster info.
-```
+{% highlight js %}
 $ kubectl cluster-info
 Kubernetes master is running at https://172.17.0.58:8443
-```
+{% endhighlight%}
 
 ## Contexts
 
