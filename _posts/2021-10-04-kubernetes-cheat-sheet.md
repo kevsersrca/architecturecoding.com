@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kubernetes Cheat sheet For Beginner 
+title: Kubernetes Cheat Sheet
 author: Kevser Sirca
 categories: [kubernetes]
 tags: [kubernetes, k8s, kubectl]
