@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kubernetes Series 
+title: Kubernetes Cheat Sheet For Beginner 
 author: Kevser Sirca
 categories: [kubernetes]
 tags: [kubernetes, k8s, kubectl]
@@ -60,14 +60,16 @@ Kubernetes master is running at https://172.17.0.58:8443
 A context is a cluster, namespace and user.
 
 - Get a list of contexts.
-```
+
+{% highlight js %}
 $ kubectl config get-contexts
-```
-```
+{% endhighlight%}
+
+{% highlight js %}
 CURRENT   NAME                 CLUSTER                      AUTHINFO             NAMESPACE
           docker-desktop       docker-desktop               docker-desktop
 *         foo                  foo                          foo                  bar
-```
+{% endhighlight%}
 
 - Get the current context.
 ```
