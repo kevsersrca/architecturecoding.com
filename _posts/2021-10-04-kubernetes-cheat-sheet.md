@@ -7,7 +7,7 @@ tags: [kubernetes, k8s, kubectl]
 ---
 Kubernetes cheat sheet is for those who want to start kubernetes and don't know how to start or to remember forgotten commands.
 
-## Definition
+## Table of Contents
 
 <div class="table-of-contents"><ul><li><a href="#kubectl-alias">Kubectl Alias</a></li><li><a href="#cluster-info">Cluster Info</a></li><li><a href="#contexts">Contexts</a></li><li><a href="#get-commands">Get Commands</a></li><li><a href="#namespaces">Namespaces</a></li><li><a href="#labels">Labels</a></li><li><a href="#describe-command">Describe Command</a></li><li><a href="#delete-command">Delete Command</a></li><li><a href="#create-vs-apply">Create vs Apply</a></li><li><a href="#create-pod">Create Pod</a></li><li><a href="#create-deployment">Create Deployment</a></li><li><a href="#create-service">Create Service</a></li><li><a href="#export-yaml-for-new-pod">Export YAML for New Pod</a></li><li><a href="#export-yaml-for-existing-object">Export YAML for Existing Object</a></li><li><a href="#logs">Logs</a></li><li><a href="#port-forward">Port Forward</a></li><li><a href="#scaling">Scaling</a></li><li><a href="#autoscaling">Autoscaling</a></li><li><a href="#rollout">Rollout</a></li><li><a href="#pod-example">Pod Example</a></li><li><a href="#deployment-example">Deployment Example</a></li><li><a href="#dajsboard">Dajsboard</a></li></ul></div>
 
