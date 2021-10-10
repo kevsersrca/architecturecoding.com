@@ -32,7 +32,7 @@ spec:
 
 ##### Apply the YAML file by running the command:
 ```
-  kubectl apply -f <filename>.yaml
+  kubectl apply -f filename.yaml
 ```
 ##### Updating the config-istio configmap to use a non-default local gateway
 If you create a custom service and deployment for local gateway with a name other than `knative-local-gateway`, you need to update gateway configmap `config-istio` under the `knative-serving` namespace.
