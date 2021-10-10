@@ -6,6 +6,8 @@ categories: [istio]
 tags: [istio, kubectl]
 ---
 
+Istio is an open source service mesh platform that provides a way to control how microservices share data with one another.
+
 ## Download Istio
 
 ```

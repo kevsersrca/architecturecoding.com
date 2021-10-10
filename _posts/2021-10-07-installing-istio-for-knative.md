@@ -7,6 +7,7 @@ tags: [istio, knative, kubectl]
 ---
 
 ## Installing Istio with sidecar injection
+
 If you want to enable the Istio service mesh, you must enable automatic sidecar injection. The Istio service mesh provides a few benefits:
 
 * Allows you to turn on mutual TLS, which secures service-to-service traffic within the cluster.

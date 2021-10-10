@@ -5,6 +5,7 @@ author: Kevser Sirca
 categories: [knative]
 tags: [knative, kubectl]
 ---
+Knative Serving builds on Kubernetes to support deploying and serving of serverless applications and functions.
 
 If you want to install Knative on production,
 
